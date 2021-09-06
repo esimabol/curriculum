@@ -227,6 +227,16 @@ footer p{
 		top: 0;
 		z-index: 1;
 	}
+	.nav {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.jumbotron {
+		margin-top: 40px;
+	}
+	.jumbotron h1 {
+		line-height: 60px;
+	}
 	.jumbotron, .education {
 		height: auto;
 	}

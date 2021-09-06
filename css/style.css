@@ -249,4 +249,7 @@ footer p{
 	.top-btn {
 		display: block;
 	}
+	.experience ul {
+		padding-left: 40px;
+	}
 }

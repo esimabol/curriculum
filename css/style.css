@@ -254,7 +254,10 @@ footer p{
 	}
 	.nav {
 		flex-wrap: wrap;
-		justify-content: flex-start;
+		justify-content: space-evenly;
+	}
+	.nav li{
+		margin-bottom: 10px;
 	}
 	.jumbotron {
 		margin-top: 40px;

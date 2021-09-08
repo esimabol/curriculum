@@ -286,6 +286,9 @@ footer p{
 	.education {
 		height: auto;
 	}
+	.skills-info {
+		height: 900px;
+	}
 	.skills-info .col {
 		width:45%;
 	}

@@ -1,6 +1,9 @@
 let contentBtn = document.querySelector('#displayContent');	
 	contentBtn.addEventListener('click', displayContent, false);
 
+let iconBtn = document.querySelector('.icon');
+	iconBtn.addEventListener('click', showMenu, false);
+
 
 	function displayContent(){			
 	  let x = document.getElementById("profile");
@@ -16,5 +19,17 @@ let contentBtn = document.querySelector('#displayContent');
 	  else{
 	  		contentBtn.value = "Learn More";
 	  }
-}
+	}
+
+	function showMenu() {
+	  var x = document.querySelector(".nav");
+	  if (x.style.display === "none") {
+	    x.style.display = "flex";
+	  } else if(x.style.display === "flex") {
+	    x.style.display = "none";
+	  }
+	  else{
+	  	x.style.display = "flex";
+	  }
+	}
 

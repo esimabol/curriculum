@@ -25,6 +25,7 @@ img {
 
 .container{
 	max-width: 1000px;
+	min-width:320px;
 	margin:0 auto;
 	padding:15px 5px;
 }
@@ -46,7 +47,7 @@ header {
 }
 .nav{
 	display: flex;
-	flex-flow: row wrap;
+	flex-direction:row;
 	justify-content: flex-end;	
 	padding:10px 20px;
 }

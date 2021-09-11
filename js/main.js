@@ -1,8 +1,8 @@
 let contentBtn = document.querySelector('#displayContent');	
-contentBtn.addEventListener('click', displayContent, false);
+	contentBtn.addEventListener('click', displayContent, false);
 
 let iconBtn = document.querySelector('.icon');
-iconBtn.addEventListener('click', showMenu, false);
+	iconBtn.addEventListener('click', showMenu, false);
 
 let i =0;
 let text = 'Hi, I am Eddy Simancas';
@@ -25,13 +25,11 @@ function displayContent(){
 }
 
 function showMenu() {
-  var x = document.querySelector(".nav");
-  if (x.style.display === "none") {
-    x.style.display = "flex";
-  } else if(x.style.display === "flex") {
+  let x = document.querySelector(".nav");
+  if (x.style.display === "flex") {
     x.style.display = "none";
-  }
-  else{
+  }  
+  else {
   	x.style.display = "flex";
   }
 }
@@ -40,7 +38,7 @@ function textEffect() {
 	if (i < text.length) {
 		document.querySelector('#typewriter').innerHTML += text.charAt(i);
 		i++;
-		setTimeout(textEffect, 300);
+		setTimeout(textEffect, 500);
 	}
 }
 

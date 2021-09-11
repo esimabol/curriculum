@@ -73,7 +73,7 @@ header {
 }
 
 .main {
-	/*Check on this later*/
+	text-align: justify;
 	position: relative;
 	top:30px;
 	padding:10px 25px;
@@ -107,6 +107,7 @@ header {
 	font-size:4rem;
 	margin-bottom: 35px;
 	color:#2c4f67;
+	word-spacing: 0px;
 }
 
 .main p{
@@ -161,6 +162,7 @@ header {
 	position: relative;	
 	box-shadow: 5px 10px #2c4f67;
 	border-radius:5px;
+	text-align: justify;
 }
 
 .experience article:hover{
@@ -210,6 +212,7 @@ header {
 	width:300px;		
 	border:1px solid #e2e2e2;
 	margin-bottom: 20px;
+	text-align: justify;
 }
 
 .certificate-title {
